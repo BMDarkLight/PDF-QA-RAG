@@ -1,0 +1,12 @@
+openai
+qdrant-client
+pypdf
+backoff
+sentence-transformers
+langchain
+langchain-community
+langchain-openai
+langchain-qdrant
+langchain-text-splitters
+langchain-document-loaders
+langchain-embeddings
