@@ -3,10 +3,9 @@ qdrant-client
 pypdf
 backoff
 sentence-transformers
+streamlit
 langchain
 langchain-community
 langchain-openai
 langchain-qdrant
 langchain-text-splitters
-langchain-document-loaders
-langchain-embeddings

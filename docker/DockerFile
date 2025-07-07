@@ -1,5 +1,3 @@
-# docker/Dockerfile
-
 FROM python:3.11-slim
 
 # Set environment
@@ -17,4 +15,4 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 COPY ../src/ ./src/
 
 # Run your ingestion script
-CMD ["python", "src/ingest.py", "/app/data/your_file.pdf"]
+CMD ["streamlit", "run", "src/ui_streamlit.py"]
